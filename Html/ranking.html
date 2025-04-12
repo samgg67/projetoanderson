@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/ranking.css">
+    <title>Ranking do Jogo</title>
+</head>
+<body>
+    <div class="home-icon">
+        <a class="home-button">
+            <img src="../Images/Ranking/home.png" alt="Home"> 
+        </a>
+    </div> 
+    <div class="ranking-container">
+        <div class="title">
+            <img src="../Images/Ranking/ranking.png">
+        </div>
+        <div class="list">
+            <div class="player">
+                <span class="category">Intermediário</span>
+                <span class="names">mika*_*</span>
+                <img src="../Images/Ranking/gift.png" alt="Presente">
+                <span class="score">1050</span>
+            </div>
+            <div class="player">
+                <span class="category">Avançado</span>
+                <span class="names">andreww</span>
+                <span class="score">1010</span>
+            </div>
+            <div class="player">
+                <span class="category">Iniciante</span>
+                <span class="names">camila.302</span>
+                <span class="score">950</span>
+            </div>
+            <div class="player">
+                <span class="category">Iniciante</span>
+                <span class="names">luisootaku</span>
+                <span class="score">820</span>
+            </div>
+            <div class="player">
+                <span class="category">Avançado</span>
+                <span class="names">strawberry</span>
+                <span class="score">560</span>
+            </div>
+        </div>
+        <div class="footer">
+            <img src="../Images/Ranking/profile1.png" class="jogador">
+            <img src="../Images/Ranking/profile2.png" class="jogador">
+            <img src="../Images/Ranking/profile3.png" class="jogador">
+            <img src="../Images/Ranking/profile4.png" class="jogador">
+            <button class="refresh">↻</button>
+        </div>
+        <button onclick="buscarUsuarios()">Atualizar lista</button>
+        <ul id="listaUsuarios"></ul>
+    </div>
+    <script src="../Javascript/ranking.js"></script>
+    <script src="./Javascript/api.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/ajuda.css">
+    <title>Tela de Ajuda</title>
+</head>
+<body>
+    <div class="home-icon">
+        <a>
+            <img class="home-button" src="../Images/Ranking/home.png" alt="Home">
+        </a>
+    </div>
+    <div class="help-container">
+        <p><strong>Escreva sua dúvida para o nosso e-mail</strong></p>
+        <textarea id="doubt" placeholder="Escreva sua dúvida aqui"></textarea>
+        <div class="button-container">
+            <button type="submit" class="submit" onclick="enviarMensagem()">Enviar</button>
+        </div>
+    </div>
+    <div class="feedback-container">
+        <p><strong>Sua dúvida foi solucionada?</strong></p>
+        <div class="feedback-buttons">
+            <button class="feedback-button">
+                <img src="../Images/Ajuda/thumbs-up.png" alt="Curtir">
+            </button>
+            <button class="feedback-button">
+                <img src="../Images/Ajuda/thumbs-down.png" alt="Não Curtir">
+            </button>
+        </div>
+    </div>
+    <script src="../Javascript/ajuda.js"></script>
+</body>
+</html>
